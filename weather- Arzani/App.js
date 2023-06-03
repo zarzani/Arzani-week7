@@ -1,0 +1,10 @@
+let now = new Date ();
+let h3 =document.querySelector("h3");
+let date = now.getDate();
+let days = ["Sunday", "Monday", "Tuesday", "Wednessday", "Thursday", "Friday", "sutarday" ]
+let day =days[now.getDate()];
+let hour = now.getHours();
+let minutes = now.getMinutes();
+let months= ["Jun", "Feb", "March", "Apr", "May", "Jun", "July", "Aug", "Sep", "Nuv", "Dec"];
+let month = months[now.getMonth()];
+h3.innerHTML = (day), (hour), (minutes), (month), (date);
