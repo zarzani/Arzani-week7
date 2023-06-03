@@ -10,3 +10,11 @@ h1 {
 h2 {
     text-decoration: underline wavy blue;
 }
+.current-temperature {
+    color: blue;
+    font-size: 80px;
+    font-weight: bolder;
+    vertical-align: sub;
+
+    
+}
