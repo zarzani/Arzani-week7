@@ -1,0 +1,42 @@
+h1 {
+    color: blue;
+    text-align: center;
+    text-shadow: 5px -10px red;
+    
+}
+.zahraArzani {
+    color: #fff;
+}
+h2 {
+    text-decoration: underline wavy blue;
+}
+.current-temperature {
+    color: blue;
+    font-size: 80px;
+    font-weight: bolder;
+    vertical-align: sub;
+
+    
+}
+.unit {
+    position: relative;
+    color: brown;
+    font-size: 16px;
+    top: -40px;
+    font-weight: bold;
+}
+.weather-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2h_HixxNR8__831JCWuuF5kxyouQGf3Evfw&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+}
+li {
+    list-style: none;
+    color:blue;
+    font-weight: bold;
+}
+
