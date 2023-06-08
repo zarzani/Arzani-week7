@@ -30,7 +30,7 @@ h2 {
     margin: 0 auto;
     padding: 30px;
     border-radius: 50px;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2h_HixxNR8__831JCWuuF5kxyouQGf3Evfw&usqp=CAU");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8hSA8DlN_sgwZ_4bCrghLBR9iv-Xbmt5pLg&usqp=CAU");
     background-size: cover;
     background-position: center;
 }
@@ -38,5 +38,6 @@ li {
     list-style: none;
     color:blue;
     font-weight: bold;
+    text-transform: capitalize;
 }
 

@@ -15,11 +15,13 @@ function displayTemperature(response) {
     let temperatureElement = document.querySelector("#temperature");
     temperatureElement.innerHTML = Math.round (response.data.main.temp);
     let cityElement = document.querySelector("#city");
-    cityElement.innerHTML = (response.data.main.name);
-    let discriptionElement = document.querySelector("#discription");
-    discriptionElement.innerHTML = (response.data.weather[0].main.description);
+    cityElement.innerHTML = (response.data.name);
+    let descriptionElement = document.querySelector("#description");
+    descriptionElement.innerHTML = (response.data.weather[0].description);
     let windElement = document.querySelector("#speed");
     windElement.innerHTML = (response.data.wind.speed);
+    let humElement = document.querySelector("#hum");
+    humElement.innerHTML = (response.data.main.humidity);
 
 
 
