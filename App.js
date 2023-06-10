@@ -22,12 +22,19 @@ function displayTemperature(response) {
     windElement.innerHTML = (response.data.wind.speed);
     let humElement = document.querySelector("#hum");
     humElement.innerHTML = (response.data.main.humidity);
-
+    
+////let pecElement = document.querySelector("#pec");
+////let pecElementElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png);
+    
+    
 
 
 }
 let apiKey = "34f95b5e87d4683b0836302b1b590869";
-let apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=London&appid=34f95b5e87d4683b0836302b1b590869&units=metric";
+
+
+
+let apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=34f95b5e87d4683b0836302b1b590869&units=metric";
 axios.get(apiUrl).then(displayTemperature);
 
 
